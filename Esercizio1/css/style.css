@@ -4,6 +4,30 @@
 
 .content .jumbotron {
     width: 100%;
-    height: 600px;
+    height: 100vh;
     background-color: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron .jumbotron-info {
+    width: 70%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.jumbotron-info .logo-cont {
+    height: 100%;
+    background-color: green;
+    flex: 5;
+}
+
+.jumbotron-info  .phone-img {
+    width: 100px;
+    height: 100%;
+    background-color: red;
+    flex: 7;
 }
