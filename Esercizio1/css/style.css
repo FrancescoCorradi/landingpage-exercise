@@ -51,8 +51,8 @@
 }
 
 .os-list {
-    height: 25px;
-    background-size: auto 50px;
+    height: 50px;
+    background-size: auto 25px;
     background-repeat: no-repeat;
     background-image: url(../images/available-for.png);
     background-size: contain;
@@ -62,7 +62,7 @@
     border: 2px solid #00c7fc;
     color: #00c7fc;
     padding: 8px 30px;
-    margin-right: 15px;
+    margin: 20px 20px 0px 0px;
     text-transform: uppercase;
     background-color: transparent;
 }
